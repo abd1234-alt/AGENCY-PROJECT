@@ -1,0 +1,53 @@
+.team {
+    background-color: #cecdcd;
+    padding: 2vw;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flex {
+    /* background-color: white;
+    width: 30vw;
+    height: 60vh; */
+}
+
+.team-figure  {
+    width: 20vw;
+    height: 20vw;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.team-figure img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.4s ease-in-out;
+}
+
+.team-figure img:hover {
+    filter: blur(.2vw);
+} 
+
+.team-info {
+    text-align: center;
+    line-height: 2.5vw;
+    margin-top: 2vw;
+}
+
+.team-info p:first-child {
+    font-size: 2vw;
+    font-weight: 700;
+}
+
+.team-info p:last-child {
+    font-size: 1.5vw;
+}

@@ -1,0 +1,63 @@
+.hero {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/img/view-3d-school-desk\ \(1\).jpg);
+    height: 45vw;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 6vw;
+    color: white;
+    width: 100%;
+}
+
+.inner-hero {
+    animation: bounce 2s ;
+    text-align: center;
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-150px);
+    }
+    60% {
+      transform: translateY(-75px);
+    }
+}
+
+.inner-hero h3 {
+    font-size: 3vw;
+}
+
+.inner-hero h1 {
+    font-size: 5vw;
+    font-weight: 700;
+    font-family: "Lato", sans-serif;
+}
+
+.inner-hero button {
+    outline: none;
+    border: none;
+    border-radius: 10%;
+    background-color: #E4B312;
+    padding: 1vw;
+    font-weight: 700;
+    margin-top: 3vw;
+    font-size: 1.3vw;
+    animation: flash 1s;
+    animation: flash 1s  1.5s ;
+}
+
+@keyframes flash {
+    0%, 100% {
+      opacity: 1;
+    }
+    
+    50% {
+      opacity: 0;
+    }
+  }
+

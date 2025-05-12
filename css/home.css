@@ -1,0 +1,44 @@
+.home {
+    background-color: #000000;
+    width: 100%;
+    padding: 1.2vw;
+    color: white;
+    font-size: 1.3vw;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 36vw;
+    width: 100%;
+}
+
+.header img {
+    width: 5vw;
+}
+
+.header ul, .header-name {
+    display: flex;
+}
+
+.header ul {
+    display: flex;
+    list-style: none;
+    gap: 1.8vw;
+    
+}
+
+.header ul li {
+    transition: all 1s linear;
+}
+
+.header ul li:hover {
+    color: #E4B312;
+    transform: scale(1.2);
+}
+
+.header-name {
+    align-items: center;
+    color: #E4B312;
+}

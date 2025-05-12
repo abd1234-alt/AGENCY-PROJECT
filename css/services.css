@@ -1,0 +1,46 @@
+.services {
+    background-color: #ECECEC;
+    padding: 5vw 1vw 5vw 1vw;
+    width: 100%;
+}
+
+.service-container {
+    display: flex;
+    justify-content: space-around;
+    /* gap: 25vw; */
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.2vw;
+    text-align: center;
+}
+
+
+
+.service-container .icon i {
+    background-color: #E4B312;
+    width: 6vw;
+    padding: 2vw;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;  
+    font-weight: 900;
+    font-size: 2vw;  
+    margin: auto;
+}
+
+.service-container h2 {
+    font-size: 1.9vw;
+    font-weight: 900;
+} 
+
+.service-container p {
+    width: 30vw;
+    font-size: 1.1vw;
+    line-height: 2vw;
+}
+
+
+
